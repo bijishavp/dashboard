@@ -1,0 +1,69 @@
+.flex-container{
+    width: 100%;
+    
+}
+.flex-container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+mat-toolbar{
+    /* background-color: rgb(2, 56, 92); */
+    background-color: #15283c ;
+    color: white;
+    height: 50px;
+    
+    
+}
+.arrow{
+    color: #fff;
+    top: 22px;
+    right: 20px;
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+    
+    border: none;
+    font-size: 18px;
+}
+.btn4{
+    width:auto;
+    border-radius: 0;
+    background: #ff5722; 
+   
+    margin: 0;
+    
+    padding: 10px 0 10px 10px;
+    height: auto;
+    
+}
+.logo{
+    vertical-align: middle;
+    border-style: none;
+   
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+::ng-deep .custom-class{
+    background-color: rgb(189, 188, 188)!important;
+}
+::ng-deep .custom-class button:hover {
+    
+    background-color:  #15283c!important;
+    color: white!important;
+    
+    
+}
+
+
+
+

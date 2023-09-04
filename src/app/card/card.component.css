@@ -1,0 +1,28 @@
+.card1{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+   
+    
+     
+}
+.icon{
+    margin-top: 30px;
+    font-size: 80px;
+    /* height and width set to content measure */
+    height: fit-content;
+    width: fit-content;
+    /* color: rgb(4, 4, 75); */
+}
+.yellow{
+    background-color: rgb(180, 180, 10);
+}
+.blue{
+    background-color: rgb(3, 3, 61);
+}
+.red{
+    background-color: rgb(100, 4, 4);
+}
+.green{
+    background-color: rgb(4, 65, 4);
+}

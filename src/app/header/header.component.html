@@ -1,0 +1,53 @@
+
+
+
+<mat-toolbar >
+    <button (click)="menubuttonClicked()"  mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Pluto</span>
+      <span class="example-spacer"></span>
+   <div class="flex-container">
+        <ul>
+           
+            <li>
+                <!-- btn 1 -->
+                <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                  <mat-icon>notifications</mat-icon>
+                </button>
+            </li>
+            <li>
+                <!-- btn 2 -->
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                  <mat-icon>mail</mat-icon>
+                </button>
+            </li>
+            <li>
+                <!-- btn 3 -->
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon>help</mat-icon>
+                  </button>
+            </li>
+            <li>
+                <!-- btn 4 -->
+                <div class="btn4">
+                  <img class="logo" src="https://www.himalmag.com/wp-content/uploads/2019/07/sample-profile-picture.png" alt="">
+                  <label for="" style="font-size: 15px;">Allen</label>
+                  <button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon class="arrow">expand_more</mat-icon>
+                    </button>
+                   
+                      <mat-menu #menu="matMenu" class="custom-class" >
+                        <button mat-menu-item >MyProfile</button>
+                        <button mat-menu-item>Settings</button>
+                        <button mat-menu-item>Help</button>
+                        <button mat-menu-item>Logout<mat-icon >logout</mat-icon></button>
+                      </mat-menu>
+                   
+                </div>
+                  
+            </li>
+        </ul>
+   </div>
+
+  </mat-toolbar>

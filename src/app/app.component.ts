@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DashBoard';
+  
+  sidebarOpened:boolean=true
+
+  toggle(){
+    //show and hide btn
+    this.sidebarOpened=!this.sidebarOpened
+  }
+  
 }
